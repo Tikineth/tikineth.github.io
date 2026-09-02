@@ -27,11 +27,33 @@
 # print(f"County Sales Tax: {purchase*.025}")
 # print(f"Total Value: {purchase+purchase*.05+purchase*.025}")
 
-purchase = int(input("What was the total charge of your meal today?: "))
-tip = purchase*.18
-stax = float(f"{purchase*.07:.2f}")
-print("Your meal was $" + str(purchase))
-print("Your tip percent was 18% and the tip amount is $" + str(tip))
-print("The sales tax was 7% and the tax amount is $" + str(stax))
-print(f"Total cost of the meal after tips and tax is: {stax+tip+purchase}")
+# purchase = int(input("What was the total charge of your meal today?: "))
+# tip = purchase*.18
+# stax = float(f"{purchase*.07:.2f}")
+# print("Your meal was $" + str(purchase))
+# print("Your tip percent was 18% and the tip amount is $" + str(tip))
+# print("The sales tax was 7% and the tax amount is $" + str(stax))
+# print(f"Total cost of the meal after tips and tax is: {stax+tip+purchase}")
 
+day = int(input("Hello, user! Please enter a number 1-7!: "))
+
+if (day < 1 or day > 7):
+    print("That isn't a valid number. Choose a number that is one through seven.")
+
+elif(day == 1):
+    print("Monday")
+elif(day == 2):
+    print("Tuesday")
+elif(day == 3):
+
+    print("Wednesday")
+elif(day == 4):
+    print("Thursday")
+elif(day == 5):
+    print("Friday")
+elif(day == 6):
+
+    print("Saturday")
+elif(day == 7):
+
+    print("Sunday")
