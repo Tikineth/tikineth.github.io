@@ -1,0 +1,6 @@
+print("-----------------------------------------------------------------------------------")
+print("Name: Hocker, Bailey")
+print("Address: 3032 Forest Ave. Jeremytown, PA 17045")
+print("Phone Number: 717-555-5555")
+print("College Major: Bowling and Pinball Management")
+print("-----------------------------------------------------------------------------------")
