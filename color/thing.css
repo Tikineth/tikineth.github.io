@@ -1,0 +1,33 @@
+#floating{
+	float: left;
+	padding-left: 20px;
+	background-color: #F9ECAC;
+	font-family: Verdana;
+}
+
+.dot{
+	color:lightblue;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+
+.theabsolute{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: lightgray;
+  border: 5px solid
+}
+
+.okayeinstein{
+	position: relative;
+	left: 15px;
+	background-color: lightgreen;
+}
+
+.hehflat{
+	position: fixed;
+	background-color: lightgray;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+}
